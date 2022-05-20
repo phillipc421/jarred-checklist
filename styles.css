@@ -6,18 +6,23 @@
 }
 
 .container {
+	margin-top: 1em;
+	margin-bottom: 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 1em;
 }
 
 .intro {
 	display: flex;
 	flex-direction: column;
 	padding: 2em;
-	background-color: beige;
+
 	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .intro > p {
@@ -33,9 +38,11 @@
 	flex-direction: column;
 	align-items: center;
 
-	background-color: aquamarine;
 	padding: 2em;
 	max-width: 600px;
+
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .learning-list ul {
